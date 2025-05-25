@@ -19,7 +19,7 @@ const app = express();
 app.use(helmet());
 app.use(cors({
   // origin: 'http://localhost:3000',
-  origin: 'https://military-asset-management-frontend.vercel.app/',
+  origin: 'https://military-asset-management-frontend.vercel.app',
   credentials: true
 }));
 
